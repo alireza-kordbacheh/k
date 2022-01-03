@@ -1,0 +1,71 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot?#')format('eot'), url('../fonts/Yekan.ttf')format('truetype'), url('../fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    direction: rtl;
+    color: white;
+    font-family: 'Yekan';
+}
+
+.login-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.login-box h1 {
+    width: 100;
+    margin: 10px 0;
+    font-size: 30px;
+    border-bottom: 3px solid #56da09;
+}
+
+.text-box {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid #56da09;
+}
+
+.text-box input {
+    width: 80%;
+    padding: 0 5px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 0 5px;
+    color: white;
+}
+
+.text-box i {
+    width: 25px;
+    text-align: center;
+}
+
+.btn {
+    background: none;
+    border: 2px solid #56da09;
+    border-radius: 3px;
+    font-size: 24px;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    margin: 30px 0;
+}
+
+.btn:hover {
+    border: 2px solid #41a108;
+    cursor: pointer;
+}
